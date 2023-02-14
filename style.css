@@ -1,4 +1,4 @@
-.top-bar {
+.top-bar, .description {
     display: flex;
 }
 
@@ -7,11 +7,20 @@
     align-items: center;
 }
 
-.logo, ul {
+.logo, ul, .left-side, .right-side {
     margin: auto;
 }
 
 ul {
+    padding: 0;
     display: flex;
     gap: 16px;
+}
+
+.left-side {
+    justify-content: center;
+}
+
+img {
+    width: 300px;
 }

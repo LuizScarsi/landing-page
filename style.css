@@ -1,0 +1,17 @@
+.top-bar {
+    display: flex;
+}
+
+.top-bar {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo, ul {
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}

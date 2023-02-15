@@ -1,4 +1,4 @@
-.top-bar, .description {
+.top-bar, .description, .section, .images, .image, ul {
     display: flex;
 }
 
@@ -13,7 +13,6 @@
 
 ul {
     padding: 0;
-    display: flex;
     gap: 16px;
 }
 
@@ -34,6 +33,28 @@ img {
 }
 
 .images {
-    display: flex;
     gap: 16px;
+}
+
+.image {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section.one {
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext {
+    width: 200px;
+    text-align: center;
+}
+
+.section.two {
+    flex-direction: column;
+}
+
+.quote-author {
+    text-align: end;
 }

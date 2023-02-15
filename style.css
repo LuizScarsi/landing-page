@@ -21,6 +21,19 @@ ul {
     justify-content: center;
 }
 
-img {
+img.big-one {
     width: 300px;
+}
+
+img {
+    width: 200px;
+    border-width: 3px;
+    border-color: rgb(16, 111, 253);
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.images {
+    display: flex;
+    gap: 16px;
 }

@@ -31,13 +31,17 @@ img.big-one {
 img {
     width: 200px;
     border-width: 3px;
-    border-color: rgb(16, 111, 253);
+    border-color: rgb(2, 108, 124);
     border-style: solid;
     border-radius: 8px;
 }
 
 .images {
     gap: 16px;
+}
+
+img.big-one {
+    border-color: rgb(232, 221, 181);
 }
 
 .image {
@@ -61,8 +65,8 @@ img {
 }
 
 .sign-up {
-    background-color: rgb(218, 65, 103);
-    color: black;
+    background-color: rgb(2, 108, 124);
+    color: white;
     align-items: center;
     margin: auto;
 }
@@ -78,7 +82,7 @@ img {
 
 .header, .footer {
     background-color: rgb(2, 108, 124);
-    color: black;
+    color: white;
 }
 
 .info {
@@ -86,5 +90,9 @@ img {
 }
 
 .section.two {
-    background-color: rgb(115, 171, 132);
+    background-color: rgb(133, 199, 242);
+}
+
+button {
+    background-color: rgb(232, 221, 181);
 }

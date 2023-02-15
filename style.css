@@ -2,6 +2,10 @@
     display: flex;
 }
 
+body {
+    color: rgb(37, 38, 39);
+}
+
 .top-bar {
     justify-content: center;
     align-items: center;
@@ -57,7 +61,8 @@ img {
 }
 
 .sign-up {
-    background-color: blue;
+    background-color: rgb(218, 65, 103);
+    color: black;
     align-items: center;
     margin: auto;
 }
@@ -69,4 +74,17 @@ img {
 .info {
     flex-direction: column;
     flex: 1;
+}
+
+.header, .footer {
+    background-color: rgb(2, 108, 124);
+    color: black;
+}
+
+.info {
+    background-color: rgb(186, 222, 252);
+}
+
+.section.two {
+    background-color: rgb(115, 171, 132);
 }

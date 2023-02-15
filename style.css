@@ -10,6 +10,19 @@ body {
 .top-bar {
     justify-content: center;
     align-items: center;
+    padding: 8px;
+}
+
+a:visited {
+    color: rgb(37, 38, 39);
+}
+
+a {
+    text-decoration: none;
+}
+
+.description {
+    padding: 48px;
 }
 
 .logo, ul, .left-side, .right-side {

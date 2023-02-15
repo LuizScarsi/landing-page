@@ -1,4 +1,4 @@
-.top-bar, .sign-up, .description, .section, .images, .image, ul {
+.top-bar, .info, .sign-up, .description, .section, .images, .image, ul {
     display: flex;
 }
 
@@ -60,4 +60,13 @@ img {
     background-color: blue;
     align-items: center;
     margin: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.info {
+    flex-direction: column;
+    flex: 1;
 }

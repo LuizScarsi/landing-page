@@ -53,8 +53,5 @@ img {
 
 .section.two {
     flex-direction: column;
-}
-
-.quote-author {
-    text-align: end;
+    align-items: center;
 }

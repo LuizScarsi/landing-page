@@ -1,4 +1,4 @@
-.top-bar, .description, .section, .images, .image, ul {
+.top-bar, .sign-up, .description, .section, .images, .image, ul {
     display: flex;
 }
 
@@ -54,4 +54,10 @@ img {
 .section.two {
     flex-direction: column;
     align-items: center;
+}
+
+.sign-up {
+    background-color: blue;
+    align-items: center;
+    margin: auto;
 }

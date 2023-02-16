@@ -58,6 +58,7 @@ img {
 
 .images {
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 img.big-one {
@@ -96,6 +97,8 @@ h2 {
     align-items: center;
     margin: auto;
     padding: 24px 48px;
+    border-radius: 24px;
+    gap: 32px;
 }
 
 h3 {
@@ -140,6 +143,7 @@ button {
 
 h1 {
     font-size: 48px;
+    margin: 0;
 }
 
 h2, .section.two {
@@ -148,4 +152,8 @@ h2, .section.two {
 
 .logo {
     font-size: 24px;
+}
+
+p {
+    margin: 0;
 }

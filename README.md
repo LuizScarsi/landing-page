@@ -1,1 +1,1 @@
-# landing-page
+I made this landing page project for my girlfriend so i wrote it in portuguese for her to understand
